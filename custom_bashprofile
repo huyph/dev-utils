@@ -1,0 +1,7 @@
+# Terminal Colors - Copy the following into ~/.bash_profile or ~/.bashsrc, then 
+# execute source ~/.bash_profile to apply the changes
+
+#PS1='[\u@\h \W]\$ ‘  # Default
+export PS1='\[\e[1;31m\][\u@\h \W]\$\[\e[0m\] '
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
