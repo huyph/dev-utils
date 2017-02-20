@@ -1,3 +1,6 @@
+# Set location where terminal looks for binaries
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+
 # Setting up terminal colors:
 # - Select "Pro" theme in terminal preferences, then
 # - Copy the following into ~/.bash_profile or ~/.bashsrc, 
