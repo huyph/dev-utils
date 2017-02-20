@@ -1,6 +1,9 @@
 # Set location where terminal looks for binaries
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
 
+# Set sublime to be the default editor, you will need to create a symbolic link to Sublime Text: "sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl"
+export EDITOR='subl -w'
+
 # Setting up terminal colors:
 # - Select "Pro" theme in terminal preferences, then
 # - Copy the following into ~/.bash_profile or ~/.bashsrc, 
